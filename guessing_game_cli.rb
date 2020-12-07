@@ -11,8 +11,7 @@ def run_guessing_game
     else
       puts "Sorry! The computer guessed #{number}."
     end 
-    input = gets.chomp
-    number = rand(6) + 1
+    input = gets.chomp1
   end 
 
   if input == "exit"
