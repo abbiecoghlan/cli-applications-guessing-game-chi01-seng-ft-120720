@@ -13,6 +13,7 @@ def run_guessing_game
   elsif input.to_i != number
     puts "Sorry! The computer guessed #{number}."
   end 
+   puts "Guess a number between 1 and 6."
   input = gets.chomp
   number = rand (6) + 1
   end
