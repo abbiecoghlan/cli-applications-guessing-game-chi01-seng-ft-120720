@@ -10,7 +10,7 @@ def run_guessing_game
       puts "You guessed the correct number!"
     else
       puts "Sorry! The computer guessed #{number}."
-    end 
+    end
 
     puts "Guess a number between 1 and 6."
     input = gets.chomp
