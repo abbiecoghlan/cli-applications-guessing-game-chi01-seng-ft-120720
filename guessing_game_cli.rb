@@ -5,7 +5,7 @@ def run_guessing_game
   
   puts "Guess a number between 1 and 6."
   input = gets.strip
-  number = rand (5) + 1
+  number = rand (6) + 1
   
   if input == number
     puts "You guessed the correct number!"
