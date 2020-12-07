@@ -13,6 +13,8 @@ def run_guessing_game
   elsif input.to_i != number
     puts "Sorry! The computer guessed #{number}."
   end 
+  input = gets.chomp
+  number = rand (6) + 1
   end
   if input == "exit"
   puts "Goodbye!"
