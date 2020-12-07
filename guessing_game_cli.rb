@@ -13,13 +13,12 @@ while input != "exit" do
       puts "Sorry! The computer guessed #{number}."
   end 
   
-    puts "Guess a number between 1 and 6."
     input = gets.chomp
     number = rand(6) + 1
-
   end 
-if input == "exit"
-  puts "Goodbye!"
-end
+
+  if input == "exit"
+    puts "Goodbye!"
+  end
 
 end
