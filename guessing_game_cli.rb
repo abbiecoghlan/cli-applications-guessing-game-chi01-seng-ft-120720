@@ -4,7 +4,7 @@ def run_guessing_game
   
   
   puts "Guess a number between 1 and 6."
-  input = gets.chomp.to_i
+  input = gets.strip.to_i
   number = rand (6) + 1
   
   if input == number
